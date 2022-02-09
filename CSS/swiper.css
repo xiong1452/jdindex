@@ -1,0 +1,52 @@
+.conmainBtn{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: calc(50% - 20px);
+    text-align: center;
+    line-height: 28px;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: bold;
+    background: rgba(0, 0, 0, .15);
+    color: #ffffff;
+    transition: all .3s linear;
+    -webkit-user-select: none;
+       -moz-user-select: none; 
+        -ms-user-select: none;
+         -o-user-select: none;
+            user-select: none;
+    cursor: pointer;
+}
+.jqSwiperlBtn{
+    left: 15px;
+}
+.conmainBtn:hover{
+    color: lightcoral;
+    background: #fff;
+}
+.jqSwiperrBtn{
+    right: 15px;
+}
+.jqSwiperSpot{
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    height: 5px;
+    font-size: 0;
+    text-align: center;
+}
+.jqSwiperSpot span{
+    width: 10px;
+    height: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: all .6s;
+}
+.jqSwiperSpot span.active{
+    background: #0ff;
+}

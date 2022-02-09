@@ -1,0 +1,42 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('./font/iconfont.eot');
+    src: url('./font/iconfont.eot?#iefix') format('embedded-opentype'),
+         url('./font/iconfont.woff2') format('woff2'),
+         url('./font/iconfont.woff') format('woff'),
+         url('./font/iconfont.ttf') format('truetype'),
+         url('./font/iconfont.svg#iconfont') format('svg');
+}
+
+.iconfont{
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+    background: #f4f4f4;
+    font: 12px/1.5 Microsoft YaHei,Heiti SC,tahoma,arial,Hiragino Sans GB,"\5B8B\4F53",sans-serif;
+    color: #666;
+}
+
+.center{
+    margin: auto;
+    width: 1190px;
+}
+
+.shortcut{
+    border-bottom: 1px solid #ddd;
+    background: #e3e4e5;
+}
+
+.header{
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.fs{
+    margin-bottom: 30px;
+}

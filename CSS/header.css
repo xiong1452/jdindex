@@ -1,0 +1,297 @@
+/* @import "//at.alicdn.com/t/font_1756213_ey4977hkc1d.css"; */
+
+.center{
+    position: relative;
+    height: 140px;
+}
+
+.H-logo{
+    position: absolute;
+    left: 0;
+    top: 10px;
+    width: 190px;
+    height: 120px;
+    background: #fff;
+}
+
+.H-logo h1{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.H-logo .logo-img{
+    display: block;
+    background: url("../img/sprite.png");
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    width: 190px;
+    height: 120px;
+    font-size: 0;
+    overflow: hidden;
+}
+
+.H-logo .hide-a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: none;
+}
+
+.H-logo .hide-a .hide-gif{
+    width: 134px;
+    height: 120px;
+    background: #fff;
+    margin: 0 auto;
+    background-size: auto 100%;
+}
+
+.H-logo .hide-a .logo-text-public{
+    color: rgb(155, 120, 83);
+    position: absolute;
+    line-height: 20px;
+    left: 50%;
+    opacity: 0;
+}
+.H-logo .hide-a .logo-text{
+    width: 120px;
+    font-size: 16px;
+    margin-left: -60px;
+    top: 36px;
+    font-weight: 700;
+    background: transparent;
+    text-align: center;
+}
+
+.H-logo .hide-a .logo-btn{
+    color: #fff;
+    background: rgb(101, 196, 178);
+    width: 60px;
+    height: 20px;
+    bottom: 35px;
+    margin-left: -32px;
+    text-indent: 4px;
+    font-size: 12px;
+    border-radius: 11px;
+}
+
+.H-search{
+    position: relative;
+    height: 60px;
+    z-index: 1;
+}
+
+.H-search-public{
+    position: absolute;
+    top: 0;
+    outline: none;
+}
+
+.H-search .H-search-f{
+    position: absolute;
+    left: 260px;
+    top: 25px;
+    width: 546px;
+    height: 32px;
+    border: 2px solid #e2231a;
+    background: #fff;
+}
+
+.H-search .H-search-f input{
+    left: 0;
+    padding: 2px 44px 2px 17px;
+    width: 425px;
+    height: 26px;
+    border: 1px solid transparent;
+    line-height: 26px;
+    font-size: 12px;
+}
+
+.H-search .H-search-f input::placeholder{
+    color: #989898;
+}
+
+.H-search .H-search-f .H-cream{
+    position: absolute;
+    right: 75px;
+    top: 10px;
+    width: 19px;
+    height: 15px;
+    overflow: hidden;
+}
+
+.H-search .H-search-f .H-cream a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-size: 0;
+}
+
+.H-search .H-search-f .H-cream a:hover{
+    color: #c81623;
+}
+
+.H-search .H-search-f .H-cream i{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    line-height: 15px;
+    text-align: center;
+}
+
+.H-search .H-search-f .H-btnSearch{
+    right: 0;
+    width: 58px;
+    height: 32px;
+    line-height: 32px;
+    border: none;
+    padding: 0;
+    background-color: #e1251b;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    transition: background .2s ease;
+    cursor: pointer;
+}
+
+.H-search .H-search-f .H-btnSearch:hover{
+    background-color: #c81623;
+}
+
+.H-search .H-search-f .H-btnSearch i{
+    font-size: 18px;
+}
+
+.H-search .H-search-f .H-search-list{
+    width: 488px;
+    position: absolute;
+    left: 0;
+    top: 35px;
+    overflow: hidden;
+    z-index: 1;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, .2);  
+    display: none;
+}
+
+.H-search .H-search-f .H-search-list li{
+    overflow: hidden;
+    padding: 1px 6px;
+    line-height: 24px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.H-search .H-search-f .H-search-list li:hover{
+    background: #f5f5f5;
+}
+
+.H-search .H-shop-car{
+    position: absolute;
+    right: 230px;
+    top: 25px;
+}
+
+.H-search .H-shop-car .H-shop-wapper{
+    width: 130px;
+    height: 34px;
+    background-color: #fff;
+    text-align: center;
+    line-height: 34px;
+    border: 1px solid #eee;
+    overflow: hidden;
+}
+
+.H-search .H-shop-car .H-shop-wapper:hover{
+    border-color: #c81623;
+}
+
+.H-search .H-shop-car .H-shop-wapper a{
+    color: #e1251b;
+}
+
+.H-search .H-shop-car .H-shop-wapper i:first-child{
+    font-size: 14px;
+    margin-right: 13px;
+    color: #e1251b;
+}
+
+.H-search .H-shop-car .H-shop-wapper .up-flag{
+    position: absolute;
+    top: 2px;
+    left: 29px;
+    right: auto;
+    padding: 1px 3px;
+    font-size: 12px;
+    line-height: 12px;
+    color: #fff;
+    background-color: #e1251b;
+    border-radius: 7px;
+    min-width: 12px;
+    text-align: center;
+}
+
+.H-hotwords{
+    overflow: hidden;
+    position: absolute;
+    left: 260px;
+    top: 65px;
+    width: 550px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.H-hotwords .first-hotwords{
+    color: #e1251b;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.H-hotwords a{
+    float: left;
+    margin-right: 10px;
+    white-space: nowrap;
+    color: #999;
+}
+
+.H-hotwords a:hover{
+    color: #c81623;
+}
+
+.H-navigation a:hover{
+    color: #c81623;
+}
+
+.H-navigation a{
+    display: block;
+    position: relative;
+    height: 40px;
+    line-height: 40px;
+    font-size: 15px;
+    color: #333;
+    margin: 0 11px;
+    transition: color .2s ease;
+}
+
+.H-navigation{
+    overflow: hidden;
+    position: absolute;
+    left: 203px;
+    bottom: 0;
+    height: 40px;
+    padding-top: 20px;
+}
+
+.H-navigation ul li{
+    float: left;
+    margin-left: 1px;
+}
+
+.H-navigation .H-navigation-special{
+    font-weight: 700;
+    color: #e1251b;
+}

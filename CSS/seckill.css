@@ -1,0 +1,324 @@
+.seckillWapper {
+    height: 260px;
+    margin-bottom: 20px;
+}
+
+.seckill-countdown{
+    position: relative;
+    float: left;
+    width: 190px;
+    height: 100%;
+    color: #fff;
+    background-color: #e83632;
+    background-image: url("../img/countdown.png");
+    background-size: contain;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.seckill-countdown .countdown-title{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 31px;
+}
+
+.seckill-countdown  .countdown-desc{
+    margin-top: 90px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.seckill-countdown  .countdown-desc strong{
+    font-size: 18px;
+    padding-right: 2px;
+    vertical-align: middle;
+    display: inline-block;
+    margin-top: -1px;
+    font-size: 700;
+}
+
+.seckill-countdown .countdown-main{
+    margin: auto;
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+.seckill-countdown .countdown-main span{
+    position: relative;
+    float: left;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    background: #2f3430;
+    margin-right: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.seckill-countdown .countdown-main span::after{
+    content: ":";
+    display: block;
+    position: absolute;
+    right: -20px;
+    font-weight: bolder;
+    font-size: 18px;
+    width: 20px;
+    height: 100%;
+    top: 0;
+}
+
+.seckill-countdown .countdown-main span:last-of-type{
+    margin-right: 0;
+}
+
+.seckill-countdown .countdown-main span:last-of-type::after{
+    display: none;
+}
+
+.seckill-list{
+    position: relative;
+    float: left;
+    width: 800px;
+    height: 100%;
+    overflow: hidden;
+    background: #fff;
+}
+
+.seckill-list a:hover{
+    color: #c81623;
+}
+
+.seckill-list a:hover .seckill-items-name{
+    color: #c81623;
+}
+
+.seckill-list a:hover .seckill-items-img{
+    opacity: .8;
+}
+
+.seckill-list ul{
+    overflow: hidden;
+}
+
+.seckill-list-ul > *{
+    float: left;
+}
+
+.seckill-list .seckill-wapper{
+    width: 100%;
+    height: 100%;
+}
+
+.seckill-list .seckill-list1{
+    float: left;
+}
+
+.seckill-list1-content > *{
+    float: left;
+}
+
+.seckill-list1-content{
+    overflow: hidden;
+}
+
+.seckill-items{
+    width: 200px;
+    position: relative;
+    height: 260px;
+    display: inline-block;
+}
+
+.seckill-items::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 1px;
+    height: 200px;
+    transform: translateY(-50%);
+    background: linear-gradient(180deg,white,#eeeeee,white);
+}
+
+.seckill-items .seckill-items-img{
+    width: 140px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    transition: opacity .2s linear;
+}
+
+.seckill-items .seckill-items-name{
+    font-size: 12px;
+    font-weight: 400;
+    color: #333;
+    transition: color .2s ease;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 160px;
+    margin: 13px auto auto auto;
+}
+
+.seckill-items .seckill-items-price{
+    border: 1px solid #e1251b;
+    position: relative;
+    box-sizing: border-box;
+    line-height: 24px;
+    overflow: hidden;
+    background-color: #e1251b;
+    width: 160px;
+    height: 24px;
+    margin: 7px auto auto auto;
+}
+
+.seckill-items .seckill-items-price .price-miaosha{
+    width: 92px;
+    height: 100%;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    float: left;
+}
+
+.seckill-items .seckill-items-price .price-miaosha span{
+    position: relative;
+    left: -4px;
+}
+
+.seckill-items .seckill-items-price .price-miaosha::before{
+    content: " ";
+    width: 0;
+    height: 0;
+    border-color: transparent white transparent transparent;
+    border-style: solid;
+    border-width: 22px 8px 0 0;
+    position: absolute;
+    top: 0;
+    left: 84px;
+}
+
+
+.seckill-items .seckill-items-price .price-miaosha i{
+    font-size: 12px;
+    font-weight: 400;
+    padding-right: 2px;
+}
+
+.seckill-items .seckill-items-price .price-origin{
+    height: 100%;
+    width: 66px;
+    float: right;
+    background: #fff;
+    text-align: center;
+    color: #999;
+    font-size: 12px;
+    line-height: 22px;
+    box-sizing: border-box;
+    text-decoration: line-through;
+    vertical-align: top;
+}
+
+.seckill-items .seckill-items-price .price-origin span{
+    position: relative;
+    left: -4px;
+}
+
+.seckill-brand{
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 260px;
+    padding: 10px;
+    box-sizing: border-box;
+    background: #fff;
+}
+
+.seckill-brand .seckill-brand-wapper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.seckill-brand .seckill-brand-wapper .seckill-brand-li{
+    float: left;
+    width: 180px;
+}
+
+.seckill-brand-li a:hover .brand-itme-img{
+    opacity: .8;
+}
+
+.seckill-brand-li .seckill-brand-a{
+    display: block;
+    height: 240px;
+    font-size: 0;
+}
+
+.seckill-brand-a .brand-itme-img{
+    width: 120px;
+    height: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    transition: opacity .2s ease;
+}
+
+.seckill-brand-a .brand-itme-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.seckill-brand-a .brand-item-info{
+    background: linear-gradient(180deg,rgba(255,255,255,.5),rgba(220,224,236,.5));
+    text-align: center;
+    font-size: 14px;
+    position: relative;
+    width: 100%;
+    height: 90px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.brand-item-info .brand-first{
+    color: #666;
+}
+
+.brand-item-info .brand-second{
+    color: #333;
+    font-weight: 700;
+}
+
+.brand-item-info .brand-btn{
+    color: #e1251b;
+    border-radius: 14px;
+    width: 82px;
+    height: 24px;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block;
+    line-height: 22px;
+    font-weight: 700;
+    padding-left: 4px;
+    font-size: 12px;
+    border: 1px solid #e1251b;
+    margin-top: 4px;
+    transition: background-color .2s ease;
+}
+
+.brand-item-info .brand-btn:hover{
+    color: white;
+    border-color: transparent;
+    background-color: #c81623;
+}
+
+.brand-item-info .brand-btn i{
+    font-size: 10px;
+}

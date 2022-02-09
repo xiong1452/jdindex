@@ -1,0 +1,168 @@
+/* @import "//at.alicdn.com/t/font_1756213_ey4977hkc1d.css"; */
+
+.shortcutContent.center{
+    height: 30px;
+    line-height: 30px;
+    color: #999;
+}
+ul.S-address {
+    float: left;
+}
+.shortcutContent ul li{
+    float: left;
+}
+.S-a{
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    padding: 0px 7px;
+    border: 1px solid #e3e4e5;
+}
+.S-address .S-a i{
+    font-size: 14px;
+    float: left;
+    color: #f10215;
+    margin-right: 4px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+.S-address .S-a span{
+    float: left;
+}
+ul.S-nav{
+    float: right;
+}
+.S-nav li{
+    position: relative;
+}
+.S-nav li.spacer{
+    overflow: hidden;
+    margin: 11px 5px 0;
+    width: 1px;
+    height: 10px;
+    background: #ccc;
+}
+.S-nav li .S-active{
+    color: #f10215;
+}
+.S-nav li .dt{
+    padding: 0px 7px;
+    position: relative;
+    z-index: 23;
+}
+.S-nav li a:hover{
+    color: #e33333;
+}
+.S-nav li .dt.icon{
+    padding-right: 20px;
+}
+.S-nav li .dt.txt{
+    width: 60px;
+    text-align: center;
+}
+.S-nav li .dt .iconfont{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 12px;
+    height: 12px;
+    line-height: 12px;
+}
+.S-nav li.li-my-jd:hover .dt{
+    border-color: #ccc;
+    padding-bottom: 2px;
+    border-bottom: none;
+    background: #fff;
+}
+.S-nav li:hover .publicDd{
+    display: block;
+}
+.S-nav li .publicDd{
+    position: absolute;
+    border: 1px solid #ccc;
+    background: #fff;
+    box-shadow: 1px 2px 1px rgba(0, 0, 0, .1);
+    line-height: 24px;
+    display: none;
+    z-index: 21;
+}
+.S-nav li .my-jd{
+    width: 280px;
+    top: 30px;
+    left: 0;
+}
+.S-nav li .my-shop{
+    width: 140px;   
+    top: 30px;
+    left: 0;
+}
+.S-nav li .my-client{
+    padding: 10px 0;
+    width: 170px;    
+    top: 30px;
+    right: 0;
+}
+.S-nav li .my-client .client-fore{
+    padding-left: 15px;
+    font-weight: 700;
+    color: #666;
+}
+.S-nav li .my-client .client-1{
+    margin-top: 5px;
+    padding-top: 5px;
+    border-top: 1px dotted #eee;
+}
+.S-nav li .my-navigation{
+    right: -84px;
+    width: 1188px;
+    padding: 15px 0;
+    top: 30px;
+}
+.S-nav li .my-navigation .fore1{
+    float: left;
+    width: 255px;
+    padding-left: 20px;
+    border-left: 1px solid #eee;
+}
+.S-nav li .my-navigation .fore1:first-child{
+    border-left: none;
+    width: 340px;
+}
+.S-nav li .my-navigation dt{
+    margin-bottom: 5px;
+    font-weight: 700;
+    color: #666;
+}
+.S-nav li .my-navigation dd{
+    width: 85px;
+}
+.S-nav li .fore{
+    padding: 10px 0 10px 15px;
+    overflow: hidden;
+}
+.S-nav li .my-jd .fore1{
+    border-bottom: 1px solid #f1f1f1;
+}
+.S-nav li dl{
+    overflow: hidden;
+}
+.S-nav li dd{
+    float: left;
+    word-break: keep-all;
+}
+.S-nav li .my-jd dd{
+    width: 126px;
+}
+.S-nav li .my-shop dd{
+    width: 56px;
+}
+.S-nav li .my-client dd{
+    width: 70px;
+    padding-left: 15px;
+}
+
+
+.special-li{
+    margin-right: 8px;
+}
